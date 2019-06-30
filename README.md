@@ -21,7 +21,7 @@ The benefit of this text corpus is that it does not just contain the article spa
 ## How to use this ELMo Model
 The usage of an ELMo model is described here:
 - https://github.com/allenai/bilm-tf
-- see `usage_*.py` there
+- see `usage_*.py` for usage options
 
 For fine tuning see here: https://github.com/allenai/bilm-tf#how-to-do-fine-tune-a-model-on-additional-unlabeled-data
 
