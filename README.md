@@ -1,6 +1,12 @@
 # German ELMo Model
 This is a german [ELMo deep contextualized word representation](https://allennlp.org/elmo). It is trained on a special [German Wikipedia Text Corpus](https://github.com/t-systems-on-site-services-gmbh/german-wikipedia-text-corpus).
 
+ELMo is a deep contextualized word representation that models both 
+1. complex characteristics of word use (e.g., syntax and semantics)
+2. how these uses vary across linguistic contexts (i.e., to model polysemy)
+
+These word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pre-trained on a large text corpus. They can be easily added to existing models and significantly improve the state of the art across a broad range of challenging NLP problems, including question answering, textual entailment and sentiment analysis. 
+
 ## How this ELMo Model has been generated
 [...]
 
