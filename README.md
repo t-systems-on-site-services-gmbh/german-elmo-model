@@ -10,7 +10,7 @@ These word vectors are learned functions of the internal states of a deep bidire
 This pretrained model can be used with [bilm-tf](https://github.com/allenai/bilm-tf) (the tensorflow implementation of ELMo). Before usage it can (should) be fine tuned with your domain specific data (see below).
 
 ## How this ELMo Model has been trained
-This ELMo Model has been trained by using the [tensorflow version of bilm](https://github.com/allenai/bilm-tf). It was trained in the special [German Wikipedia Text Corpus](https://github.com/t-systems-on-site-services-gmbh/german-wikipedia-text-corpus).
+This ELMo Model has been trained by using the [tensorflow version of bilm](https://github.com/allenai/bilm-tf). It was trained on the special [German Wikipedia Text Corpus](https://github.com/t-systems-on-site-services-gmbh/german-wikipedia-text-corpus).
 
 The benefit of this text corpus is that it does not just contain the article space of the wiki. It also contains the comments for a larger text corpus and a more sloppy language. This should improve the quality of downstream tasks when you process conversations like mails, chats, tweets or support tickets.
 
