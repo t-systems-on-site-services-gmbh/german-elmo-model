@@ -13,7 +13,11 @@ This pretrained model can be used with [bilm-tf](https://github.com/allenai/bilm
 [...]
 
 ## How to use this ELMo Model
-[...]
+The usage of an ELMo model is described here:
+- https://github.com/allenai/bilm-tf
+- see `usage_*.py` there
+
+For fine tuning see here: https://github.com/allenai/bilm-tf#how-to-do-fine-tune-a-model-on-additional-unlabeled-data
 
 ## Content of the Tarball
 These files are needed to use the ELMo model:
