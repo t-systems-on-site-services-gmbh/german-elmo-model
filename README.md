@@ -16,9 +16,10 @@ This pretrained model can be used with [bilm-tf](https://github.com/allenai/bilm
 [...]
 
 ## Content of the Tarball
-- vocab-train.txt
-- weights.hdf5
-- options.json
+These files are needed to use the ELMo model:
+- vocab-train.txt - vocabulary file
+- weights.hdf5 - weights from the trained biLM in hdf5 format
+- options.json - options file which describes the hyperparameters of the biLM
 
 These files are part of the tensorflow checkpoint mechanism. It can save and restore TensorFlow models. This is needed to do fine tuning (see below):
 - checkpoint
