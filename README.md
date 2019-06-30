@@ -33,7 +33,10 @@ Training time on a single GeForce GTX 1080 Ti was about 68 hours per epoch and t
 ## How to use this ELMo Model
 The usage of an ELMo model is described here:
 - https://github.com/allenai/bilm-tf
-- see `usage_*.py` for usage options
+- see these files for usage options:
+  - [usage_cached.py](https://github.com/allenai/bilm-tf/blob/master/usage_cached.py)
+  - [usage_character.py](https://github.com/allenai/bilm-tf/blob/master/usage_character.py)
+  - [usage_token.py](https://github.com/allenai/bilm-tf/blob/master/usage_token.py)
 
 For fine tuning see here: https://github.com/allenai/bilm-tf#how-to-do-fine-tune-a-model-on-additional-unlabeled-data
 
