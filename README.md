@@ -5,7 +5,7 @@ ELMo is a deep contextualized word representation that models both
 1. complex characteristics of word use (e.g., syntax and semantics)
 2. how these uses vary across linguistic contexts (i.e., to model polysemy)
 
-These word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pre-trained on a large text corpus. They can be easily added to existing models and significantly improve the state of the art across a broad range of challenging NLP problems, including question answering, textual entailment and sentiment analysis.
+These word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pre-trained on a large text corpus. They can be easily added to existing models and significantly improve the state of the art across a broad range of challenging NLP problems, including question answering, textual entailment and sentiment analysis. More about these "Deep contextualized word representations" can be found here: https://arxiv.org/abs/1802.05365
 
 This pretrained model can be used with [bilm-tf](https://github.com/allenai/bilm-tf) (the tensorflow implementation of ELMo). Before usage it can (should) be fine tuned with your domain specific data (see below).
 
