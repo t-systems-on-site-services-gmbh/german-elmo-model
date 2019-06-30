@@ -24,6 +24,8 @@ Now training was done like this:
 3. contunue training with [restart.py](https://github.com/allenai/bilm-tf/blob/master/bin/restart.py)
 4. loop back to step 2 until the bilm starts to overfit
 
+This has been done for 15 epochs. Epoch 15 was overfitting so the best perplexity was on epoch 14 with 40.170242 (see graphic below).
+
 ![Validation perplexity](https://raw.githubusercontent.com/t-systems-on-site-services-gmbh/german-elmo-model/master/perplexity-german-bilm.png "Validation perplexity")
 
 [...]
