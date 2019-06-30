@@ -16,10 +16,12 @@ This pretrained model can be used with [bilm-tf](https://github.com/allenai/bilm
 [...]
 
 ## Content of the Tarball
-- checkpoint
 - vocab-train.txt
 - weights.hdf5
 - options.json
+
+These files are part of the tensorflow checkpoint mechanism. It can save and restore TensorFlow models. This is needed to do fine tuning (see below).
+- checkpoint
 - model.ckpt-5265680.index
 - model.ckpt-5265680.meta
 - model.ckpt-5265680.data-00000-of-00001
