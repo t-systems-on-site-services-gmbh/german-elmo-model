@@ -27,4 +27,8 @@ This is a german [ELMo deep contextualized word representation](https://allennlp
 [...]
 
 ## Unpack
-[...]
+Using these commands you can unpack the files (Linux and macOS):
+```
+cat bilm-output-result.tgz.part-* > bilm-output-result.tgz
+tar xvfz bilm-output-result.tgz
+```
