@@ -13,6 +13,15 @@ These word vectors are learned functions of the internal states of a deep bidire
 ## How to use this ELMo Model
 [...]
 
+## Content of the Tarball
+- checkpoint
+- vocab-train.txt
+- weights.hdf5
+- options.json
+- model.ckpt-5265680.index
+- model.ckpt-5265680.meta
+- model.ckpt-5265680.data-00000-of-00001
+
 ## Download
 - [bilm-output-result.tgz.part-00]()
   - MD5: 755379908885a6fa6fb5b68e4806eae0
