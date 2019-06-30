@@ -24,7 +24,7 @@ This is a german [ELMo deep contextualized word representation](https://allennlp
   - MD5: 2aa41bbc32d42eae052a7ddf37909443
   - SHA1: 9af7efbdd480a919c45e11188625d59a5943f9b9
 
-[...]
+[TODO: Add Links]
 
 ## Unpack
 Using these commands you can unpack the files (Linux and macOS):
