@@ -7,7 +7,7 @@ ELMo is a deep contextualized word representation that models both
 
 These word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pre-trained on a large text corpus. They can be easily added to existing models and significantly improve the state of the art across a broad range of challenging NLP problems, including question answering, textual entailment and sentiment analysis. More about these "Deep contextualized word representations" can be found here: https://arxiv.org/abs/1802.05365
 
-This pretrained model can be used with [bilm-tf](https://github.com/allenai/bilm-tf) (the tensorflow implementation of ELMo). Before usage it can (should) be fine tuned with your domain specific data (see below).
+This pretrained model can be used with [bilm-tf](https://github.com/allenai/bilm-tf) (the tensorflow implementation of ELMo). Before usage it can (should) be fine tuned with your domain specific data (see below). Unlike most other ELMo models we also provide the checkpoint files which enables you to do fine tuning.
 
 ## How this ELMo Model has been trained
 This ELMo Model has been trained by using the [tensorflow version of bilm](https://github.com/allenai/bilm-tf). It was trained on the special [German Wikipedia Text Corpus](https://github.com/t-systems-on-site-services-gmbh/german-wikipedia-text-corpus).
