@@ -9,7 +9,7 @@ These word vectors are learned functions of the internal states of a deep bidire
 
 This pretrained model can be used with [bilm-tf](https://github.com/allenai/bilm-tf) (the tensorflow implementation of ELMo). Before usage it can (should) be fine tuned with your domain specific data (see below).
 
-## How this ELMo Model has been generated
+## How this ELMo Model has been trained
 
 ![Validation perplexity](https://raw.githubusercontent.com/t-systems-on-site-services-gmbh/german-elmo-model/master/perplexity-german-bilm.png "Validation perplexity")
 
