@@ -38,7 +38,7 @@ The usage of an ELMo model is described here:
   - [usage_character.py](https://github.com/allenai/bilm-tf/blob/master/usage_character.py)
   - [usage_token.py](https://github.com/allenai/bilm-tf/blob/master/usage_token.py)
 
-For fine tuning see here: https://github.com/allenai/bilm-tf#how-to-do-fine-tune-a-model-on-additional-unlabeled-data
+For fine tuning see here: [How to do fine tune a model on additional unlabeled data?](https://github.com/allenai/bilm-tf#how-to-do-fine-tune-a-model-on-additional-unlabeled-data)
 
 ## Content of the Tarball
 These files are needed to use the ELMo model:
