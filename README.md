@@ -28,7 +28,7 @@ This has been done for 15 epochs. Epoch 15 was overfitting so the best perplexit
 
 ![Validation perplexity](https://raw.githubusercontent.com/t-systems-on-site-services-gmbh/german-elmo-model/master/perplexity-german-bilm.png "Validation perplexity")
 
-Training time on a single GeForce GTX 1080 Ti was about 68 hours per epoch and test time like 2,5 hours. So this ELMo model was more then 44 days of computation time.
+Training time on a single GeForce GTX 1080 Ti was about 68 hours per epoch and test time like 2,5 hours. So training this ELMo model was more then 44 days of computation time.
 
 ## How to use this ELMo Model
 The usage of an ELMo model is described here:
