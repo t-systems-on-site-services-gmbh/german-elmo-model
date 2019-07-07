@@ -41,6 +41,9 @@ For different concrete usage options see here:
 
 For fine tuning see here: [How to do fine tune a model on additional unlabeled data?](https://github.com/allenai/bilm-tf#how-to-do-fine-tune-a-model-on-additional-unlabeled-data)
 
+### Important `n_characters` option
+The `n_characters` option has to be hanged between fine tuning and model usage. The `n_characters` is set in the `options.json` file. For fine tuning alwasy set `261`. For ELMo model usage set it to `262`. Also see here: https://github.com/allenai/bilm-tf#whats-the-deal-with-n_characters-and-padding
+
 ## Content of the Tarball
 These files are needed to use the ELMo model:
 - vocab-train.txt - vocabulary file
