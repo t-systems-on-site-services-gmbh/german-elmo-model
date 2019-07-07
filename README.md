@@ -31,7 +31,7 @@ This has been done for 15 epochs. Epoch 15 was overfitting so the best perplexit
 Training time on a single GeForce GTX 1080 Ti was about 68 hours per epoch and test time like 2,5 hours. So training this ELMo model was more then 44 days of computation time.
 
 ## How to use this ELMo Model
-The general usage options of an ELMo model is described here: https://github.com/allenai/bilm-tf
+The general usage options of an ELMo model are described here: https://github.com/allenai/bilm-tf
 
 For different usage options see here:
 - [usage_cached.py](https://github.com/allenai/bilm-tf/blob/master/usage_cached.py)
