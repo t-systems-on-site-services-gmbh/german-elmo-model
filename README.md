@@ -31,12 +31,13 @@ This has been done for 15 epochs. Epoch 15 was overfitting so the best perplexit
 Training time on a single GeForce GTX 1080 Ti was about 68 hours per epoch and test time like 2,5 hours. So training this ELMo model was more then 44 days of computation time.
 
 ## How to use this ELMo Model
-The usage of an ELMo model is described here:
-- https://github.com/allenai/bilm-tf
-- see these files for usage options:
-  - [usage_cached.py](https://github.com/allenai/bilm-tf/blob/master/usage_cached.py)
-  - [usage_character.py](https://github.com/allenai/bilm-tf/blob/master/usage_character.py)
-  - [usage_token.py](https://github.com/allenai/bilm-tf/blob/master/usage_token.py)
+The general usage options of an ELMo model is described here: https://github.com/allenai/bilm-tf
+
+For different usage options see here:
+- [usage_cached.py](https://github.com/allenai/bilm-tf/blob/master/usage_cached.py)
+- [usage_character.py](https://github.com/allenai/bilm-tf/blob/master/usage_character.py)
+- [usage_token.py](https://github.com/allenai/bilm-tf/blob/master/usage_token.py)
+- [`dump_bilm_embeddings`](https://github.com/allenai/bilm-tf/blob/master/bilm/model.py#L643)
 
 For fine tuning see here: [How to do fine tune a model on additional unlabeled data?](https://github.com/allenai/bilm-tf#how-to-do-fine-tune-a-model-on-additional-unlabeled-data)
 
