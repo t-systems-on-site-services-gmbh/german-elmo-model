@@ -73,7 +73,7 @@ These files are part of the TensorFlow checkpoint mechanism. It can save and res
   - MD5: 2aa41bbc32d42eae052a7ddf37909443
   - SHA1: 9af7efbdd480a919c45e11188625d59a5943f9b9
 
-## Download Options and weights File only
+## Download Options and Weights Files only
 - [options.json](https://github.com/t-systems-on-site-services-gmbh/german-elmo-model/releases/download/files_1/options.json)
   - MD5: da99676f2fe2838ff2663a6d9bad97dd
   - SHA1: 04afb8bc77acf5e65633ced2efc1e91d05332e89
