@@ -91,7 +91,7 @@ tar xvfz bilm-output-result.tgz
 ## Citation / BibTeX
 This is how you can cite this work with LaTeX / BibTeX:
 ```
-@article{ger-elmo,
+@article{GerElmo,
 title = "{German ELMo Model}",
 author = {Philip May},
 year = "2019",
