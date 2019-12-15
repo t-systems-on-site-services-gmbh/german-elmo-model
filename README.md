@@ -87,3 +87,14 @@ Using these commands you can unpack the files (Linux and macOS):
 cat bilm-output-result.tgz.part-* > bilm-output-result.tgz
 tar xvfz bilm-output-result.tgz
 ```
+
+## Citation / BibTeX
+This is how you can cite this work with LaTeX / BibTeX:
+```
+@article{ger-elmo,
+title = "{German ELMo Model}",
+author = {Philip May},
+year = "2019",
+url = {https://github.com/t-systems-on-site-services-gmbh/german-elmo-model},
+}
+```
